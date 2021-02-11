@@ -1,0 +1,6 @@
+[submodule "workshop-common"]
+	path = workshop-common
+	url = https://github.com/NBISweden/workshop-common.git
+[submodule "workshop-2019"]
+	path = workshop-2019
+	url = https://github.com/grokkaine/biopycourse.git
