@@ -30,3 +30,5 @@ menu:
     url: practical
   - title: Contact
     url: contact
+
+theme: jekyll-theme-minimal
