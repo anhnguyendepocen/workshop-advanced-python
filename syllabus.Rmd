@@ -21,7 +21,7 @@ jupyter:
 
 The first day is also the most essential day in terms of Python programming. It is targeted to custom scientific computing and data mining, so you learn how to adapt a method, or port one from a different language, or glue a remote call to it, also how to find information or mine it using web services. If you are not versed with programming you also get an idea of how to achieve everything with a language.
 
-- [Information](day1/info.ipynb)
+- [Information](./day1/info.ipynb)
     - [About the course](day1/info.ipynb#About-the-course)
     - [About us](day1/info.ipynb#About-us)
     - [About you](day1/info.ipynb#About-you)
