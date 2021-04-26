@@ -1,0 +1,291 @@
+---
+jupyter:
+  jupytext:
+    formats: ipynb,Rmd
+    text_representation:
+      extension: .Rmd
+      format_name: rmarkdown
+      format_version: '1.2'
+      jupytext_version: 1.11.1
+  kernelspec:
+    display_name: Python 3
+    language: python
+    name: python3
+---
+
+# Quick and clean: Python for biological data processing
+
+<!-- #region -->
+
+## Day 1, 8:00-16:00, Data analysis
+
+The first day is also the most essential day in terms of Python programming. It is targeted to custom scientific computing and data mining, so you learn how to adapt a method, or port one from a different language, or glue a remote call to it, also how to find information or mine it using web services. If you are not versed with programming you also get an idea of how to achieve everything with a language.
+
+- [Information](day1/info.ipynb)
+    - [About the course](day1/info.ipynb#About-the-course)
+    - [About us](day1/info.ipynb#About-us)
+    - [About you](day1/info.ipynb#About-you)
+    - [Venue, credits, requirements](day1/info.ipynb#Venue,-credits,-requirements)
+    - [Bibliography](day1/info.ipynb#Bibliography)
+
+
+- [What is Python?](day1/what.ipynb)
+    - [How do computers work?](day1/what.ipynb#How-do-computers-work?)
+    - [Python: Stats, strengths and weaknesses](day1/what.ipynb#Python:-Stats,-strengths-and-weaknesses)
+    - [Python: Past, present and future](day1/what.ipynb#Python:-Past,-present-and-future)
+    - [The outside world of a pythonista](day1/what.ipynb#The-outside-of-a-pythonista)
+    - [MAKE PYTHON WORK AGAIN!](day1/what.ipynb#MAKE-PYTHON-WORK-AGAIN!)
+
+
+- [Jupyter](day1/jupyter.ipynb)
+    - [Startup exercise](day1/jupyter.ipynb#Startup-exercise)
+    - [Use in reproducible research](day1/jupyter.ipynb#Use-in-reproducible-research)
+    - [History and JupyterLab](day1/jupyter.ipynb#History-and-JupyterLab)
+    - [Other uses](day1/jupyter.ipynb#Other-uses)
+    - [Slideshows](day1/jupyter.ipynb#Slideshows)
+
+
+- [The Standard Python tutorial](day1/tutorial.ipynb)
+    - [Basics](day1/tutorial.ipynb#Basics): Math, Variables, Functions, Control flow, Modules
+    - [Data representation](day1/tutorial.ipynb#Data-representation): String, Tuple, List, Set, Dictionary, Objects and Classes
+    - [Standard library modules](day1/tutorial.ipynb#Standard-library-modules): script arguments, file operations, timing, processes, forks, multiprocessing
+
+
+- [Python and the data](day1/data.ipynb)
+    - [Text and binary](day1/data.ipynb#Text-and-binary): streaming, serialization, regular expression
+    - [The Web](day1/data.ipynb#The-Web): XML parsing, html scraping, web frameworks, API calls
+    - [Data Storage](day1/data.ipynb#Data-storage): SQLite, SQL querrying, Chunking and HDF5, pytables
+    - [Python and other languages](day1/data.ipynb#Python-and-other-languages): C, R, Julia
+
+
+- [Visualization](day1/visualization.ipynb):
+    - Standard plots with matplotlib and seaborn: line, scatter, chart
+    - Web publishing with plotly and bokeh: heatmap example
+    - Network display with networkx
+    - GUI programming with wxpython
+    - Web interfaces
+
+
+- [Scientific computing](day1/scicomp.ipynb):
+    - Numpy: advanced array operations
+    - Scipy introduction: from linear algebra to image analisys
+    - Simpy: symbolic math
+    - Networks with networkx: centrality computation
+    - Fitting a curve, cleaning a signal.
+
+
+- [Statistics](day1/statistics.ipynb):
+    - [Pandas](day1/statistics.ipynb#Pandas): Python's most important dataframing library
+    - [Tidiness and method chaining](day1/statistics.ipynb#Tidiness-and-method-chaining)
+    - [Using scipy.stats for more advanced statistics](day1/statistics.ipynb#Using-scipy.stats-for-more-advanced-statistics)
+    - [Statistical enrichment analysis](day1/statistics.ipynb#Statistical-enrichment-analysis)
+    - [Statsmodels](day1/statistics.ipynb#Statsmodels)
+    - [Differential Expression](day1/statistics.ipynb#Differential-expression)
+
+
+
+
+- [Optimization](day1/optimization.ipynb)
+    - Least squares
+    - Gradient descent
+    - Constraint optimization
+    - Global optimization
+
+
+- [Dynamical systems]() (todo)
+    - Time series
+    - Fixed points and bifurcations
+<!-- #endregion -->
+
+<!-- #region -->
+## Day 2, 8:00-16:00, Biological data science
+
+This day has a smaller focus on actual programing and a more practical focus on how to perform machine learning, statistical learning and patern recognition. This day builds on the "science stack" libraries and makes heavy use of scikit-learn and other more exotic libraries.
+
+- [Intro to data science](day2/learning.ipynb)
+    - Data science vs biology.
+    - How to extract information from data.
+    - Dataset, model, prediction.
+    - Supervised vs Unsupervised ML
+    - Linearity, Nonlinearity
+    - Data distributions in biology.
+
+
+- [Dimension Reduction](day2/DR.ipynb):
+    - [Feature selection](day2/DR.ipynb#Feature-selection)
+    - [Feature extraction](day2/DR.ipynb#Feature-extraction)
+        - [PCA](day2/DR.ipynb#PCA)
+        - [ICA](day2/DR.ipynb#ICA)
+        - [FA](day2/DR.ipynb#FA)
+    - Application: [tSNE](day2/DR.ipynb#tSNE)
+
+
+- [Clustering](day2/clustering.ipynb):
+    - Similarity scores in various biological data
+    - Useful methods: Kmeans, hierarchical, spectral, DBSCAN
+    - Graph community detection: modularity, random walking, infomap (todo)
+
+
+- [Regression](day2/regression.ipynb):
+    - models: OLS, Lasso, Ridge, Bayesian, etc
+    - Model validation, Hyperparametrization.
+
+
+- [Classification](day2/classification.ipynb):
+    - Logistic regression
+    - SVD, Kernel methods
+    - PLS, OPLS, OPLS-DA
+    - Decision trees and random forests
+
+
+- [Data integration]():
+    - Integrative clustering
+    - Covariance optimization
+    - Bayesian learning
+
+
+- [Deep learning](day2/DL.ipynb)
+    - Essentials, Tensor math
+    - One example: Transcriptional regulation
+    - Keras, Tensorflow and PyTorch
+
+
+- [Statistical learning]()(todo)
+    - Bayesian statistics
+    - PyMC3 basics
+
+
+<!-- #endregion -->
+
+<!-- #region -->
+# Day 3, 8:00-16:00, Biological data engineering
+
+We covered the more advanced aspects of Python, and explored some of the libraries that make data science work. This day is dedicated to engineering the computing infrastructure and Python's role in it. What is the state of the computing infrastructure today, how to use Python to organize your work with reproducibility in mind, how to run it on clouds and GPU machines?
+
+- [Gentle introduction](day3/dataeng_intro.ipynb)
+    - PC, Server, Grid, Cloud, IoT
+    - Desktop OS and Python.
+    - Using Docker.
+    - Using Jupyter and Python inside Docker.
+
+
+- [DevOps](day1/devops.ipynb)
+    - Reproducible research.
+    - Continuous integration.
+    - How to source your code.
+    - Using source editors. What matters?
+    - Distributed version control using git.
+    - Development vs production.
+    - When do we need containers? Using Docker.
+    - Speed: Profiling, IPython, JIT 
+    - Robustness: unit testing
+    - Documentation: pydoc and Sphinx
+
+
+- [Workflow management](day2/workflow.ipynb)
+    - Snakemake tutorial
+    - Other examples: nextflow, luigi.
+    - Make your own workflow in Python.
+
+
+- [Grid computing]()
+    - What is HPC?
+    - Singularity.
+
+
+- [Distributed computing](day1/cloud.ipynb)
+    - What is the cloud?
+    - Hadoop and Spark
+    - Spinning instances, the need for containers
+    - Serverless.
+
+
+- [AWS cloud](day3/aws.ipynb)
+    - [Loading data into S3 buckets](day3/aws.ipynb#Loading-data-into-S3-buckets)
+        - via Console, CLI, Boto3
+    - [Setting up an EC2 reserved instance](day3/aws.ipynb#Setting-up-a-reserved-instance)
+        - via Console, CLI, Boto3
+    - [Spin up containers via Docker Machine](day3/aws.ipynb#Spin-up-containers-via-Docker-Machine)
+    - [Instance types](day3/aws.ipynb#Instance-types)
+    - [ECS clusters and Docker Cloud](day3/aws.ipynb#ECS-clusters-and-Docker Cloud)
+
+
+- [Spark](day3/spark.ipynb)
+    - MapReduce, Hadoop and Spark.
+    - Data lake: Hive, Pigs, YARN.
+    - Setup a Spark cluster in AWS.
+    - ML with PySpark
+
+
+- [GPU acceleration on the cloud]()
+    - GPU computing, FPGA, ASICS
+    - Statistical learning example: PyMC3
+    - Deep Learning example: Keras, Tensorflow
+
+
+<!-- #endregion -->
+
+<!-- #region -->
+## Task day, 8:00-16:00, 'Omics
+
+We setup the problems and describe the tasks, and give you some helper code to start with, and you will work on your picked task in class. I will tend to guide rather than tell. You are engouraged to bring your own task, but if you want the quality of advice to be high it would be good to send me a description or contact me in advance! We will also have an individual follow up at some later date.
+
+- [Sequencing - NGS pipelining](day3/ngs_pipelining.ipynb):
+    - Open a cloud instance and install required programs
+    - Setup the pipeline
+    - Read mapping and IGV inspection
+    - Normalizing counts and differential expression
+    - Galaxy integration
+    
+    
+- [Sequencing - Biopython](day3/sequencing.ipynb)
+    - Make a toy sequencing library in standard Python for processing DNA, RNA and protein data.
+    - Implement the DNA, RNA and proteins as Python classes
+    - Make methods for transcription, translation, regulation.
+    - Compute several sequence similarity scores, such as hamming distance and mutual information.
+    - Add BioPython methods and prefix them with bp
+    - Describe your module in a tutorial like fashion
+    
+    
+- [Gene Expression](day3/expression.ipynb)
+    - Download a GEO dataset and prepare it
+    - Cluster the genes based on their expression
+    - Compute a co-expression network
+    - Compute differential gene expression for a set of samples.
+    - Compute functional enrichment of the main clusters.
+    
+    
+- [Transcriptomics](day3/transcriptomics.ipynb)
+    - Extract the promoter regions using biopython
+    - Investigate de-novo motifs on clusters of genes using meme or steme
+    - Use TransFac database to search for motif occurences on selected genes
+    - Save the found motifs and related data
+    - Test which of the motif occurences on your selected genes is significant
+    
+    
+- [Proteomics](day3/proteomics.ipynb)
+    - Compute a protein similarity graph, cluster enrichment study
+    - Perform structural alignment and plots with PyMol
+    
+    
+- [Metabolomics](day3/metabolomics.ipynb)
+    - Metabolic pathway assembly, enrichment and display
+    - Flux balance analysis
+    
+    
+- [Dynamic modeling](day3/dynamic_modeling.ipynb)
+    - Load a curated SBML model
+    - Plot the model
+    - Solve the model
+    - Peak identification
+    - Pathway studies
+    
+    
+- [Population genetics and philogeny](PopGen.ipynb) - Removed/Not included.
+    - Run a small scale coalescent simulation
+    - Compute a philogeny tree and display it
+<!-- #endregion -->
+
+```{python}
+
+```
